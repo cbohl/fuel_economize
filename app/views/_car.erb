@@ -1,0 +1,10 @@
+<div id = "car_1">
+  <img src = "<%= car.picture_url %>"></img>
+
+  <h4> Make: <%= car.make %> </h4>
+  <h4> Model: <%= car.model %> </h4>
+  <h4> Year: <%= years_driving %> </h4>
+  <h4> Mileage: <%= car.gas_mileage %>mpg </h4>
+
+  <h4> Gas money over <%= years_driving %> years, driving <%=miles_per_year%> miles per year at $2.75/gallon: $<%= years_driving * miles_per_year * 1 / car.gas_mileage * 2.75 %></h4>
+</div>

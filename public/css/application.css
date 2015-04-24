@@ -7,3 +7,11 @@
 th {
   text-align: left;
 }
+
+.form {
+  display: inline;
+}
+
+html {
+  background-color: #add8e6
+}

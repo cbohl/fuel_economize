@@ -1,15 +1,32 @@
-<form action = "/" method = "get">
-  <select name = "car">
+<form id = "car_form">
+  <h4 class = "form">Make</h4>
+  <select class = "form" name = "make">
     <option value="Toyota">Toyota</option>
     <option value="Ford">Ford</option>
     <option value="Honda">Honda</option>
   </select>
 
-  <input type = "submit"></input>
+  <h4 class = "form">Years driving</h4>
+  <select class = "form" name = "years_driving">
+    Years Driving
+    <option value=1>1</option>
+    <option value=2>2</option>
+    <option value=3>3</option>
+    <option value=3>4</option>
+    <option value=3>5</option>
+    <option value=1>6</option>
+    <option value=2>7</option>
+    <option value=3>8</option>
+    <option value=3>9</option>
+    <option value=3>10</option>
+  </select>
+
+
+  <h4 class = "form">Miles per year</h4>
+  <input class = "form" type = "number" name = "miles_per_year"></input>
+
+  <input class = "form" type = "submit"></input>
 </form>
 
-
-<%= @cars.find_by(params[:car]).picture_url %>
-
-
-
+<div id = "car_1_position">
+</div>
