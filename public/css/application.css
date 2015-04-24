@@ -15,3 +15,34 @@ th {
 html {
   background-color: #add8e6
 }
+
+.car_image {
+  max-width: 800px;
+}
+
+#car_2_form {
+  float: right;
+  width: 40%;
+}
+
+#car_1_form {
+  width: 40%;
+  position: fixed;
+}
+
+#car_1_position {
+  position:fixed;
+  top: 25px;
+}
+
+#car_2_position {
+  position: fixed;
+  right: 5px;
+  top: 25px;
+}
+
+#car_2_form {
+  position: fixed;
+  right: 5px;
+  top: -0px;
+}
